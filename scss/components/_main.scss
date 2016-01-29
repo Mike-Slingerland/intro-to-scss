@@ -1,0 +1,22 @@
+html {
+	font-family: $Open-sans;
+}
+
+h1 {
+	font-family: $Open-sans;
+}
+
+.border {
+	border: 1px solid $grey;
+	p {
+		color: $green;
+	}
+
+	@media only screen and (min-width: 30em) {
+		border-color: $grey-dark;
+	}
+}
+
+.primary-btn {
+	@include button($green);
+}
